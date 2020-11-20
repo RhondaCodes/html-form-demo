@@ -3,14 +3,37 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Form: Buttons</title>
+    <title>Form: Fieldset & Legend</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-
     <form>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+      <fieldset>
+        <legend>Shipping Information</legend>
+        <div>
+          <label for="shippingName">Name:</label>
+          <input id="shippingName" type="text" name="shipName">
+        </div>
+        <div>
+          <label for="shippingZip">Zip code:</label>
+          <input id="shippingZip" type="text" name="shipZip">
+        </div>
+        </fieldset>
+      <input type="checkbox" id="same" name="same">
+      <label for="same">Is the Billing Information the Same?</label>
+
+      <fieldset>
+        <legend>Billing Information</legend>
+        <div>
+          <label for="billingName">Name:</label>
+          <input id="billingName" type="text" name="billName">
+        </div>
+        <div>
+          <label for="billingZip">Zip code:</label>
+          <input id="billingZip" type="text" name="billZip">
+        </div>
+      </fieldset>
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
