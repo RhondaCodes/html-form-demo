@@ -6,13 +6,10 @@ form label {
     font-family: arial;
   }
   
-  form input[type=text] {
+  form textarea {
+    height: 4.75rem;
+    width: 100%;
     color: #000;
     font-size: 16px;
     margin-bottom: 20px;
   }
-  
-  form input[type=text]#zip {
-    width: 51px;
-  }
-  
