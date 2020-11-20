@@ -7,15 +7,3 @@ form p {
   color: gray;
   font-family: arial;
 }
-
-/* Does not style text, but the box size: */
-input[type="checkbox"] {
-  color: red; /* Just to show this doesn't change the text color */ 
-  font-size: 26px; /* Size effects bullet and padding */ 
-}
-
-form input[type="checkbox"] + label { 
-  display: inline;
-  color: #000;
-  font-size: 16px;
-}
