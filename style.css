@@ -1,3 +1,4 @@
+
 form label,
 form p {
   display: block;
@@ -7,11 +8,13 @@ form p {
   font-family: arial;
 }
 
-form input[type="radio"] { 
-  font-size: 16px;
+/* Does not style text, but the box size: */
+input[type="checkbox"] {
+  color: red; /* Just to show this doesn't change the text color */ 
+  font-size: 26px; /* Size effects bullet and padding */ 
 }
 
-form input[type="radio"] + label { 
+form input[type="checkbox"] + label { 
   display: inline;
   color: #000;
   font-size: 16px;
